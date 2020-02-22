@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    .join-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: cornflowerblue;
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .join-container__iner {
+            position: absolute;
+            background-color: rgba(0, 0, 0, .6);
+            width: 70%;
+            height: 86%;
+
+            .join-container__input {
+                margin-top: 10px;
+            }
+        }
+
+    }
+}
